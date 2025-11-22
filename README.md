@@ -5,10 +5,14 @@ A deep learning project for automated defect detection and localization in steel
 
 – Built end-to-end deep learning pipeline for automated defect detection in steel manufacturing, reducing quality control
 costs by 30%.
+
+
 – Implemented ResNet50-based binary classifier using transfer learning from ImageNet, achieving 87% accuracy on
 defect vs non-defect classification across 12,600+ images.
+
 – Developed ResUNet segmentation model for pixel-wise defect localization across 4 defect classes using custom
 encoder-decoder architecture with skip connections.
+
 – Applied Run-Length Encoding (RLE) for efficient mask handling, focal Tversky loss for class-imbalanced segmentation,
 and data augmentation techniques.
 
